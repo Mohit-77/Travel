@@ -1,0 +1,306 @@
+*{
+    font-family: 'Poppins', sans-serif;
+}
+
+#logo{
+    height: 100px;
+    width: 100px;
+}
+
+.TravelWords{
+    color:#171E4B;
+    font-family: 'Besley', serif
+}
+
+.TravelParagraph{
+    font-size: 12px;
+}
+
+.DestinationWords{
+    color: #E37D68;
+}
+.btn-1{
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.trollyGirl{
+    height: 500px;
+}
+
+
+.Satellite{
+    /* width: 20px; */
+    height: 60px;
+}
+
+.Flight{
+    height: 55px;
+}
+
+.Mic{
+    height: 60px;
+}
+
+.Settings{
+    height: 60px;
+}
+
+#Satellite{
+    border-radius: 12px;
+    
+}
+
+#Flight{
+    border-radius: 12px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+#Mic{
+    border-radius: 12px;
+    
+}
+
+#Settings{
+    border-radius: 12px;
+    
+}
+
+
+.PlayIcon{
+    height: 17px;
+}
+
+.PlayButton{
+    height: 32px !important;
+    width: 32px !important;
+    border-radius: 16px !important ;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: 0.2s;
+}
+
+.SatelliteIcon{
+    height: 80px;
+     width: 70px;
+     display: flex;
+     justify-content: center;
+     padding-top: 10px;
+     z-index: 1;
+}
+
+.description{
+    font-size: 10px;
+}
+
+/* .flights{
+    box-shadow: 0 23px 40px 10px #F7F7F7;;
+} */
+
+.Customcard{
+    /* width: 165px; */
+    height: 240px;
+    /* border: 2px solid red; */
+    /* border-radius: 30px; */
+    position: absolute;
+    border: none !important;  
+    /* border-radius: 20px; */
+    /* border-bottom-left-radius: 30px !important;
+    border-bottom-right-radius: 30px !important;
+    border-top-right-radius: 12px !important;
+    border-top-left-radius: 12px !important; */
+    transition: 1000ms;
+}
+
+.Customcard:hover{
+    /* border: 2px solid white !important; */
+    border-bottom-left-radius: 30px !important;
+    border-bottom-right-radius: 30px !important;
+    border-top-right-radius: 12px !important;
+    border-top-left-radius: 12px !important;
+    box-shadow: 0 45px 50px 10px rgba(207,207,207,0.2)!important;
+    cursor: pointer;
+}
+
+.card{
+    border: none;
+}
+
+.border{
+    
+    border: 2px solid red;
+}
+
+.flight{
+    box-shadow: 0 10px 50p 10px #F7F7F7;
+}
+
+.Head{
+    font-size: 14px;
+}
+
+.pinkDesignA{
+    border-top-right-radius : 6px;
+    border-bottom-right-radius: 12px;
+    background-color: #FFF1DA;
+    width: 40px;
+    height: 40px;
+    border: 2px solid #FFF1DA;
+    position: relative;
+    bottom: 58px;
+    left: 38px;
+}
+
+.pinkDesignB{
+    border-top-right-radius : 6px;
+    border-bottom-left-radius: 12px;
+    background-color: #FFF1DA;
+    width: 40px;
+    height: 40px;
+    border: 2px solid #FFF1DA;
+    position: relative;
+    bottom: 76px;
+    right: 16px;
+}
+
+.pinkDesignC{
+    border-top-right-radius : 12px;
+    /* border-bottom-left-radius: 12px; */
+    background-color: #FFF1DA;
+    width: 40px;
+    height: 40px;
+    border: 2px solid #FFF1DA;
+    position: relative;
+    bottom: 70px;
+    left:20px
+}
+
+.pinkDesignD{
+    border-top-right-radius : 6px;
+    border-bottom-left-radius: 12px;
+    background-color: #FFF1DA;
+    width: 40px;
+    height: 40px;
+    border: 2px solid #FFF1DA;
+    position: relative;
+    bottom: 36px;
+    left: 34px;
+}
+
+.TextArea{
+    display: flex;
+    justify-content: space-between;
+}
+
+.place{
+    font-size: 14px !important;
+}
+
+.cardSection .card{
+    padding: 0;
+}
+
+.Destionation-Card{
+    border: none !important;
+    width: 200px !important;
+    border-radius: 20px !important;
+    box-shadow: 0 45px 50px 10px rgba(207,207,207,0.2)!important;
+    transition: 1000ms;
+}
+
+.Destionation-Card:hover{
+    border-radius: 20px !important;
+    box-shadow: 0 46px 32px 25px rgba(161,161,161,0.3) !important ;
+    cursor: pointer;
+}
+
+.imagesPictures{
+    height: 200px !important;
+    border-top-left-radius: 20px !important;
+    border-top-right-radius: 20px !important;
+}
+
+.vacationDays{
+    text-align: left;
+    font-size: 12px;
+}
+
+.Threeoption{
+    /* border: 2px solid orange; */
+}
+
+/* .BoxA{
+    width: 35px;
+    height: 35px;
+    border: 2px solid green;
+    border-radius: 10px;
+    background-color: #F0BB1F;
+} */
+
+.ThreeText{
+font-size: 10px;
+}
+
+.cardGreece{
+    height:100%;
+    width: 300px;
+    border-radius: 20px;
+    border: 2px solid rgb(22, 255, 146);
+    box-shadow: 0 13px 50px 29px rgba(227,227,227,0.3);
+}
+
+.GreeceLocation{
+    border-radius: 20px;
+    /* width: 220px; */
+    height: 160px;
+}
+
+.Greece{
+    font-size: 14px;
+    font-weight: 800;
+}
+
+.GreeceDescription{
+    font-size: 10px;
+}
+
+.IconA{
+    width: 26px;
+    height: 26px;
+    border: 2px solid white;
+    background-color: rgb(231, 231, 231);
+    border-radius: 50px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.IconBox{
+    display: flex;
+}
+
+.leave{
+    font-size: 10px;
+    color: rgb(95, 95, 95);
+   
+}
+
+.map{
+    font-size: 10px;
+    color: rgb(95, 95, 95);
+}
+
+.location{
+    font-size: 10px;
+    color: rgb(95, 95, 95);
+}
+
+.tower{
+    height: 16px;
+    color: rgb(95, 95, 95);
+}
+
+.GreecePicture{
+    border-radius: 16px;
+}
