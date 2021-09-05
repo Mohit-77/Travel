@@ -226,7 +226,7 @@ transition: 0.4s;
     border: none !important;
     width: 200px !important;
     border-radius: 20px !important;
-    box-shadow: 0 7px 50px 19px rgba(220,220,220,0.2)!important;
+    box-shadow: 0 14px 50px 16px rgba(220,220,220,0.2)!important;
     transition: 1000ms;
 }
 
@@ -269,7 +269,7 @@ font-size: 10px;
     width: 300px;
     border-radius: 20px;
     border: 2px solid rgb(22, 255, 146);
-    box-shadow: 0 13px 50px 29px rgba(227,227,227,0.3);
+    box-shadow: 0 14px 50px 16px rgba(220,220,220,0.2);
 }
 
 .GreeceLocation{
@@ -379,8 +379,7 @@ font-size: 10px;
 }
 
 .card-body{
-     box-shadow: 14px 14px 40px 5px rgba(190, 190, 190, 0.3);
-}
+    box-shadow: 0 14px 50px 16px rgba(220,220,220,0.2);
 
 .grey{
     padding-left: 10px;
