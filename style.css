@@ -140,7 +140,7 @@ transition: 0.4s;
     border-bottom-right-radius: 30px !important;
     border-top-right-radius: 12px !important;
     border-top-left-radius: 12px !important;
-    box-shadow: 0 9px 30px 25px rgba(220,220,220,0.2)!important;
+    box-shadow: 0 14px 50px 16px rgba(220,220,220,0.2)!important;
     cursor: pointer;
 }
 
