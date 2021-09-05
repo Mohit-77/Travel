@@ -379,7 +379,8 @@ font-size: 10px;
 }
 
 .card-body{
-    box-shadow: 0 14px 50px 16px rgba(220,220,220,0.2);
+     box-shadow: 14px 14px 40px 5px rgba(190, 190, 190, 0.3);
+}
 
 .grey{
     padding-left: 10px;
