@@ -2,6 +2,10 @@
     font-family: 'Poppins', sans-serif;
 }
 
+.navbar-brand{
+    font-family: 'Patua One', cursive;
+}
+
 #logo{
     height: 100px;
     width: 100px;
@@ -21,12 +25,29 @@
 }
 .btn-1{
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    font-size: 10px;
 }
 
 .trollyGirl{
     height: 500px;
 }
 
+
+.play-Button{
+    background-color: #DB2B42;
+border: none;
+border-radius: 50px;
+transition: 0.4s;
+}
+
+.play-Button:hover{
+    box-shadow: 0 0 50px 2px rgba(255, 25, 25, 0.925);
+}
+
+.playIcon{
+    height: 30px;
+    padding: 2px;
+}
 
 .Satellite{
     /* width: 20px; */
@@ -67,7 +88,7 @@
 
 
 .PlayIcon{
-    height: 17px;
+    height: 20px;
 }
 
 .PlayButton{
@@ -78,6 +99,7 @@
     justify-content: center;
     align-items: center;
     transition: 0.2s;
+    font-size: 10px;
 }
 
 .SatelliteIcon{
@@ -118,7 +140,7 @@
     border-bottom-right-radius: 30px !important;
     border-top-right-radius: 12px !important;
     border-top-left-radius: 12px !important;
-    box-shadow: 0 45px 50px 10px rgba(207,207,207,0.2)!important;
+    box-shadow: 0 45px 50px 10px rgba(50, 214, 255, 0.2)!important;
     cursor: pointer;
 }
 
@@ -204,13 +226,13 @@
     border: none !important;
     width: 200px !important;
     border-radius: 20px !important;
-    box-shadow: 0 45px 50px 10px rgba(207,207,207,0.2)!important;
+    box-shadow: 0 10px 25px 17px rgba(219, 219, 219, 0.3) !important;
     transition: 1000ms;
 }
 
 .Destionation-Card:hover{
     border-radius: 20px !important;
-    box-shadow: 0 46px 32px 25px rgba(161,161,161,0.3) !important ;
+    box-shadow: 0 10px 25px 17px rgba(163, 163, 163, 0.3) !important;
     cursor: pointer;
 }
 
@@ -221,8 +243,9 @@
 }
 
 .vacationDays{
+    color: grey;
     text-align: left;
-    font-size: 12px;
+    font-size: 10px;
 }
 
 .Threeoption{
@@ -262,6 +285,7 @@ font-size: 10px;
 
 .GreeceDescription{
     font-size: 10px;
+    color: grey;
 }
 
 .IconA{
@@ -274,6 +298,19 @@ font-size: 10px;
     flex-direction: row;
     justify-content: center;
     align-items: center;
+}
+
+.IconAndText{
+    /* border: 2px solid black; */
+    display: flex;
+    align-items: baseline;
+    margin-top: 6px;
+}
+
+.locationA{
+    font-size: 10px;
+    padding-right: 6px;
+    color: grey;
 }
 
 .IconBox{
@@ -304,3 +341,166 @@ font-size: 10px;
 .GreecePicture{
     border-radius: 16px;
 }
+
+.cardTitle{
+    font-size: 12px;
+    color: grey;
+}
+.userProfile{
+    /* border: 2px solid red; */
+    border-radius: 20px;
+    width: 40px;
+    height: 40px;
+    position: absolute;
+    z-index: 10;
+    right: 580px;
+    /* top: 200px; */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url(https://images.unsplash.com/photo-1528892952291-009c663ce843?ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTh8fHVzZXJ8ZW58MHx8MHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60);
+}
+
+.CardOne{
+    width:22rem;
+    z-index: 9;
+    background-color: hotpink;
+    /* box-shadow: 14px 14px 40px 5px rgba(217,217,217,0.3); */
+    position: relative;
+}
+
+.CardTwo{
+    width:22rem;
+    background-color: rgb(175, 175, 175);
+    z-index: 8;
+    bottom: 40px;
+    /* box-shadow: 14px 14px 40px 5px rgba(217,217,217,0.3); */
+    left: 20px;
+}
+
+.card-body{
+     box-shadow: 14px 14px 40px 5px rgba(190, 190, 190, 0.3);
+}
+
+.grey{
+    padding-left: 10px;
+    font-size: 10px;
+    color: grey;
+}
+
+.Blue{
+    font-size: 10px;
+    color:#38425C;
+}
+
+.companyLogo{
+    height: 20px;
+}
+
+.mailBox{
+    /* border: 2px solid #E37D68; */
+    display: flex;
+    justify-content: center;
+}
+
+.emailBox{
+    border-radius: 6px;
+   width: 300px;
+   height: 40px; 
+ font-size: 12px;
+ border: 2px SOLID #DCDCDC;
+}
+
+
+.SubButton {background-image: linear-gradient(to right, #FF512F 0%, #F09819  51%, #FF512F  100%)}
+.SubButton {
+  margin-left: 10px;
+   border: none;
+   padding: 6px 12px;
+   text-align: center;
+   transition: 1000ms;
+   background-size: 200% auto;
+   color: white;            
+   box-shadow: 0 0 20px #eee;
+   border-radius: 6px;
+   display: block;
+ }
+
+ .SubButton:hover {
+   background-position: right center; /* change the direction of the change here */
+   color: #fff;
+   text-decoration: none;
+ }
+
+ .mainContainer{
+     background-color: #f3f3f3;
+     border-radius: 12px;
+ }
+
+ .Social{
+     
+     border: 2px solid white;
+     background-color: #f3f3f3;
+     border-radius: 20px;
+     width: 40px;
+     height: 40px;
+     display: flex;
+     align-items: center;
+     justify-content: center;
+ }
+
+ .mediaIcons{
+     height: 14px;
+     width: 14px;
+ }
+
+ .subTopic{
+     list-style-type: none;
+     font-size: 13px;
+   
+ }
+
+ .mainTopic{
+     font-weight: bold;
+    margin-bottom: 6px;
+    list-style-type: none;
+ }
+
+ .downloadButton{
+     border-radius: 28px !important;
+     font-size: 12px !important;
+ }
+
+ .videoPlay{
+     
+     width: 100%;
+    
+ }
+
+ .boxModal{
+     background-color: transparent !important;
+     border: none;
+ }
+
+ .modalBox .videoContainer{
+     position: relative;
+ }
+
+/* .buttonclose{
+    border: 2px solid red;
+    height: 25px;
+    width: 20px;
+} */
+
+
+ .CloseButton{
+     position: absolute;
+     top: 4px;
+     right: 4px;
+     color: white !important;
+ }
+
+ .boxModal{
+    background-color: transparent;
+    border: none !important;
+ }
